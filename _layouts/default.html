@@ -6,8 +6,8 @@
 <body>
 	<div id="wrap">
 	  	
-	  	<!-- Navigation 
-	  	{% include menu.html %}-->
+	  	<!-- Navigation -->
+	
     
     <!-- Icon menu -->
 	  <a href="#" {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
@@ -30,7 +30,7 @@
 
 	  </main>
 		
-		  <!-- Pagination links 
+		  <!-- Pagination links -->
       {% if paginator.total_pages > 1 %}
         <div class="pagination">
           {% if paginator.previous_page == 1 %}
@@ -59,7 +59,7 @@
         </div>
         {% endif %}
 
-	  </div> -->
+	  </div>
 	    
 	    <!-- Footer -->
 	    {% include footer.html %}
