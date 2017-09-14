@@ -1,6 +1,6 @@
 # Site settings
 title: Cryptomoon
-description: "The other side of the coin."ß
+description: "The other side of the coin."
 
 # Build settings
 baseurl: /emerald/ # Change this to your relative path (ex: /blog/), or leave just a /
